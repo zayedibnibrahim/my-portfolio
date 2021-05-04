@@ -1,0 +1,36 @@
+nav a{
+    font-weight: 900 !important;
+    font-size: larger !important;
+
+    position: relative !important;
+    display: inline-block !important;
+    color: #ffffff !important;
+    overflow: hidden !important;
+    background: linear-gradient(to right, royalblue, rgb(71, 107, 212) 50%, rgb(255, 255, 255) 50%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-size: 200% 100% !important;
+    background-position: 100% !important;
+    transition: background-position 275ms ease !important;
+    text-decoration: none !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+nav a:hover {
+      background-position: 0 100% !important;
+  }
+
+.navbar{
+    background-color: #000;
+    box-shadow: 0 0 7px rgb(0 0 0 / 90%)
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+    height: 20px !important;
+}
+.navbar-toggler{
+    border: 1px solid #fff !important;
+    padding: 10px !important;
+}
