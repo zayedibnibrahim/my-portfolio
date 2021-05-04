@@ -27,8 +27,8 @@ const Portfolio = () => {
 
     const classes = useStyles();
     return (
-        <section className="portfolio">
-            <div className="container">
+        <section className="portfolio pb-5">
+            <div className="container pb-5">
                 <div className="row">
                     <div className="col-md-12">
                         <h1 className="page-title text-white">Portfolio</h1>
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 </div>
                 <div className="row d-flex justify-content-center align-items-center pt-5 pb-5">
                     <Slide bottom>
-                    <div className="col-md-3">
+                    <div className="col-md-3 pb-md-5 pb-4">
                         <Card className={classes.root}>
                             <CardActionArea>
                                 <CardMedia
@@ -64,7 +64,7 @@ const Portfolio = () => {
                             </CardActions>
                         </Card>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 pb-md-5 pb-4">
                         <Card className={classes.root}>
                             <CardActionArea>
                                 <CardMedia
@@ -92,7 +92,7 @@ const Portfolio = () => {
                             </CardActions>
                         </Card>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 pb-md-5 pb-4">
                         <Card className={classes.root}>
                             <CardActionArea>
                                 <CardMedia
@@ -120,7 +120,7 @@ const Portfolio = () => {
                             </CardActions>
                         </Card>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 pb-md-5 pb-4">
                         <Card className={classes.root}>
                             <CardActionArea>
                                 <CardMedia
