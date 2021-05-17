@@ -84,7 +84,7 @@ const Portfolio = () => {
                             </CardActionArea>
                             <CardActions className={classes.cardBg}>
                                 <Button size="small" color="primary" className={classes.infoColor}>
-                                    <a target="_blank" rel="noreferrer" href="https://github.com/zayedibnibrahim/food-king-restaurant"><FontAwesomeIcon icon={faGithub} /> Git</a>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/zayedibnibrahim/food-king-restaurant-client"><FontAwesomeIcon icon={faGithub} /> Git</a>
                                 </Button>
                                 <Button size="small" color="primary" className={classes.infoColor}>
                                     <a target="_blank" rel="noreferrer" href="https://food-king-769c1.web.app/"><FontAwesomeIcon icon={faEye} /> Live Site</a>

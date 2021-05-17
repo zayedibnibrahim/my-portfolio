@@ -26,7 +26,7 @@ const About = () => {
                         <p className="text-white">Enthusiastic React.js developer with broad expertise in Javascript/ES6 and willing to learn and master Back-end Development. Looking for a challenging yet exciting career with a progressive company that will provide development opportunities.</p>
                         <div className="row pt-5 d-flex">
                             <div className="col-md-6">
-                                <a className="resumeButton" href="https://drive.google.com/file/d/1JKinWM2-0BOgHfZc3gLr4YBjBC07iBRg/view?usp=sharing">
+                                <a className="resumeButton" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1JKinWM2-0BOgHfZc3gLr4YBjBC07iBRg/view?usp=sharing">
                                     <span className="button-text">View Resume</span>
                                     <span className="button-icon"><FontAwesomeIcon icon={faEye} /></span>
                                 </a>
