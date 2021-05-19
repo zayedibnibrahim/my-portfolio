@@ -19,7 +19,7 @@ const Home = () => {
                         <h3 className="text-white mt-2 title">
                             I'm a  <Typewriter
                                 options={{
-                                    strings: ['React Developer', 'Front-End Developer', 'Back-End Developer', 'Problem Fixing'],
+                                    strings: ['React Developer', 'Front-End Developer', 'Back-End Developer'],
                                     autoStart: true,
                                     loop: true,
                                 }}
