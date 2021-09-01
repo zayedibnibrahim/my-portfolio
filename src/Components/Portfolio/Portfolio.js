@@ -18,6 +18,7 @@ import port2 from '../../image/foodking.jpg'
 import port3 from '../../image/football.jpg'
 import port4 from '../../image/shoeshop.jpg'
 import port5 from '../../image/techvaly.jpg'
+import port6 from '../../image/foodstore.JPG'
 import Slide from 'react-reveal/Reveal'
 const Portfolio = () => {
   const useStyles = makeStyles({
@@ -57,11 +58,11 @@ const Portfolio = () => {
                   <CardContent className={classes.cardBg}>
                     <Typography
                       gutterBottom
-                      variant='h5'
+                      variant='h6'
                       component='h2'
                       className={classes.infoColor}
                     >
-                      MERN Ecommerce Website - Tech valy
+                      MERN E-commerce Website - Tech valy
                     </Typography>
                     <Typography
                       variant='body2'
@@ -71,8 +72,11 @@ const Portfolio = () => {
                     >
                       <b>Functionality:</b>
                       <br />
-                      React, Redux, Node, Express, Mongoose, Multer, Paypal,
-                      HTML, CSS, Bootstrap, Fontawesome
+                      Full featured shopping cart, Product reviews and ratings,
+                      Product pagination, Product search feature, User profile
+                      with orders, Admin product management, Admin user
+                      management, Mark orders as delivered option, PayPal
+                      Payment
                       <br />
                     </Typography>
                   </CardContent>
@@ -112,13 +116,75 @@ const Portfolio = () => {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
+                    image={port6}
+                    title='Contemplative Reptile'
+                  />
+                  <CardContent className={classes.cardBg}>
+                    <Typography
+                      gutterBottom
+                      variant='h6'
+                      component='h2'
+                      className={classes.infoColor}
+                    >
+                      MERN Restaurant Food Order Service - Food Store
+                    </Typography>
+                    <Typography
+                      variant='body2'
+                      color='textSecondary'
+                      component='p'
+                      className={classes.infoColor}
+                    >
+                      <b>Functionality:</b>
+                      <br />
+                      Full featured shopping cart, Quick product search feature,
+                      Quick product search feature, Stripe payment and cash on
+                      delivery, Google authentication with JWT token, Update
+                      delivery and payment info from Admin panel and more
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions className={classes.cardBg}>
+                  <Button
+                    size='small'
+                    color='primary'
+                    className={classes.infoColor}
+                  >
+                    <a
+                      target='_blank'
+                      rel='noreferrer'
+                      href='https://github.com/zayedibnibrahim/foodstore-mern'
+                    >
+                      <FontAwesomeIcon icon={faGithub} /> Git
+                    </a>
+                  </Button>
+                  <Button
+                    size='small'
+                    color='primary'
+                    className={classes.infoColor}
+                  >
+                    <a
+                      target='_blank'
+                      rel='noreferrer'
+                      href='https://food-store-add09.web.app/'
+                    >
+                      <FontAwesomeIcon icon={faEye} /> Live Site
+                    </a>
+                  </Button>
+                </CardActions>
+              </Card>
+            </div>
+            <div className='col-md-3 pb-md-5 pb-4'>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
                     image={port1}
                     title='Contemplative Reptile'
                   />
                   <CardContent className={classes.cardBg}>
                     <Typography
                       gutterBottom
-                      variant='h5'
+                      variant='h6'
                       component='h2'
                       className={classes.infoColor}
                     >
@@ -135,6 +201,10 @@ const Portfolio = () => {
                       Google Auth, Order Service, Admin Panel, Customer
                       Dashboard, Add Service and Manege Order, Add New Admin,
                       Email
+                      <br />
+                      <br />
+                      <br />
+                      <br />
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -168,66 +238,7 @@ const Portfolio = () => {
                 </CardActions>
               </Card>
             </div>
-            <div className='col-md-3 pb-md-5 pb-4'>
-              <Card className={classes.root}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={port2}
-                    title='Contemplative Reptile'
-                  />
-                  <CardContent className={classes.cardBg}>
-                    <Typography
-                      gutterBottom
-                      variant='h5'
-                      component='h2'
-                      className={classes.infoColor}
-                    >
-                      Food King - Fast Food Restaurant
-                    </Typography>
-                    <Typography
-                      variant='body2'
-                      color='textSecondary'
-                      component='p'
-                      className={classes.infoColor}
-                    >
-                      <b>Functionality:</b>
-                      <br />
-                      Google Auth, Order Service, Admin Panel, Add Food and
-                      Manege Order, Add New Admin
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-                <CardActions className={classes.cardBg}>
-                  <Button
-                    size='small'
-                    color='primary'
-                    className={classes.infoColor}
-                  >
-                    <a
-                      target='_blank'
-                      rel='noreferrer'
-                      href='https://github.com/zayedibnibrahim/food-king-restaurant-client'
-                    >
-                      <FontAwesomeIcon icon={faGithub} /> Git
-                    </a>
-                  </Button>
-                  <Button
-                    size='small'
-                    color='primary'
-                    className={classes.infoColor}
-                  >
-                    <a
-                      target='_blank'
-                      rel='noreferrer'
-                      href='https://food-king-769c1.web.app/'
-                    >
-                      <FontAwesomeIcon icon={faEye} /> Live Site
-                    </a>
-                  </Button>
-                </CardActions>
-              </Card>
-            </div>
+
             <div className='col-md-3 pb-md-5 pb-4'>
               <Card className={classes.root}>
                 <CardActionArea>
@@ -239,7 +250,7 @@ const Portfolio = () => {
                   <CardContent className={classes.cardBg}>
                     <Typography
                       gutterBottom
-                      variant='h5'
+                      variant='h6'
                       component='h2'
                       className={classes.infoColor}
                     >
@@ -254,6 +265,9 @@ const Portfolio = () => {
                       <b>Functionality:</b>
                       <br />
                       Show Club Info, React Router, Props
+                      <br />
+                      <br />
+                      <br />
                       <br />
                       <br />
                       <br />
@@ -305,7 +319,7 @@ const Portfolio = () => {
                   <CardContent className={classes.cardBg}>
                     <Typography
                       gutterBottom
-                      variant='h5'
+                      variant='h6'
                       component='h2'
                       className={classes.infoColor}
                     >
