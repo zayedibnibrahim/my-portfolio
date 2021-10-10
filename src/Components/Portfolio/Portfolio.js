@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 import port1 from '../../image/bridal.jpg'
-import port2 from '../../image/foodking.jpg'
+import port7 from '../../image/djevent.png'
 import port3 from '../../image/football.jpg'
 import port4 from '../../image/shoeshop.jpg'
 import port5 from '../../image/techvaly.jpg'
@@ -178,7 +178,7 @@ const Portfolio = () => {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image={port1}
+                    image={port7}
                     title='Contemplative Reptile'
                   />
                   <CardContent className={classes.cardBg}>
@@ -188,7 +188,7 @@ const Portfolio = () => {
                       component='h2'
                       className={classes.infoColor}
                     >
-                      Bridal Evento - Wedding Photography Service
+                      DJ Event - Dj event posting Next js App
                     </Typography>
                     <Typography
                       variant='body2'
@@ -198,9 +198,9 @@ const Portfolio = () => {
                     >
                       <b>Functionality:</b>
                       <br />
-                      Google Auth, Order Service, Admin Panel, Customer
-                      Dashboard, Add Service and Manege Order, Add New Admin,
-                      Email
+                      Strapi Admin Dashboard, User sign in and Sign up option,
+                      User Create new Events, User crud operation, Fully
+                      functional Admin panel
                       <br />
                       <br />
                       <br />
@@ -217,7 +217,7 @@ const Portfolio = () => {
                     <a
                       target='_blank'
                       rel='noreferrer'
-                      href='https://github.com/zayedibnibrahim/bridal-evento-event-management'
+                      href='https://github.com/zayedibnibrahim/djevent-next-frontend'
                     >
                       <FontAwesomeIcon icon={faGithub} /> Git
                     </a>
@@ -230,7 +230,7 @@ const Portfolio = () => {
                     <a
                       target='_blank'
                       rel='noreferrer'
-                      href='https://bridal-evento.web.app/'
+                      href='https://djnextevents.vercel.app/'
                     >
                       <FontAwesomeIcon icon={faEye} /> Live Site
                     </a>
@@ -308,6 +308,71 @@ const Portfolio = () => {
         </div>
         <div className='row d-flex justify-content-start align-items-center pb-5'>
           <Slide bottom>
+            <div className='col-md-3 pb-md-5 pb-4'>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image={port1}
+                    title='Contemplative Reptile'
+                  />
+                  <CardContent className={classes.cardBg}>
+                    <Typography
+                      gutterBottom
+                      variant='h6'
+                      component='h2'
+                      className={classes.infoColor}
+                    >
+                      Bridal Evento - Wedding Photography Service
+                    </Typography>
+                    <Typography
+                      variant='body2'
+                      color='textSecondary'
+                      component='p'
+                      className={classes.infoColor}
+                    >
+                      <b>Functionality:</b>
+                      <br />
+                      Google Auth, Order Service, Admin Panel, Customer
+                      Dashboard, Add Service and Manege Order, Add New Admin,
+                      Email
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions className={classes.cardBg}>
+                  <Button
+                    size='small'
+                    color='primary'
+                    className={classes.infoColor}
+                  >
+                    <a
+                      target='_blank'
+                      rel='noreferrer'
+                      href='https://github.com/zayedibnibrahim/bridal-evento-event-management'
+                    >
+                      <FontAwesomeIcon icon={faGithub} /> Git
+                    </a>
+                  </Button>
+                  <Button
+                    size='small'
+                    color='primary'
+                    className={classes.infoColor}
+                  >
+                    <a
+                      target='_blank'
+                      rel='noreferrer'
+                      href='https://bridal-evento.web.app/'
+                    >
+                      <FontAwesomeIcon icon={faEye} /> Live Site
+                    </a>
+                  </Button>
+                </CardActions>
+              </Card>
+            </div>
             <div className='col-md-3 pb-md-5 pb-4'>
               <Card className={classes.root}>
                 <CardActionArea>
